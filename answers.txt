@@ -1,0 +1,49 @@
+Question 1: How are Flask and Django different? What does Django provide for you that Flask does not?
+https://www.educba.com/django-vs-flask/
+All in all, both Django vs flask are open source Python web frameworks. 
+Django is a full stack framework, whereas Flask is a micro and a lightweight framework.
+The parameter to be discussed is in relation with a transfer of request object. 
+Each view is set as an individual parameter in Django whereas the request based object
+is imported from flask module and looks like a global variable in the case of Flask.
+Django relies on its ORM or uses its SQLAlchemy whereas Flask makes use of peewee and
+SQLAlchemy. Due to the void of any present ORM, authors create independent solutions
+from a particular ORM. Flask minimalism, therefore, gives a positive effect on the environment.
+Flask applications are mostly SPAs (Single Page Applications) whereas with Django your 
+project application is divided into smaller chunks, thereby giving the developers an easy 
+to code single applications and merge them to form the application as a whole.
+
+Question 2: What does REST stand for? When I say something is RESTful, what does that mean?
+https://en.wikipedia.org/wiki/Representational_state_transfer
+Representational State Transfer
+https://www.codecademy.com/articles/what-is-rest
+Systems that follow the REST paradigm are stateless, 
+meaning that the server does not need to know anything 
+about what state the client is in and vice versa. 
+In this way, both the server and the client can understand any 
+message received, even without seeing previous messages.
+This constraint of statelessness is enforced through the use of resources, 
+rather than commands. Resources are the nouns of the Web - they describe any object, 
+document, or thing that you may need to store or send to other services.
+
+
+Question 3: What does CRUD stand for? For each letter in CRUD, give the associated HTTP method.
+create, read, update, and delete
+POST,PUT; GET; POST;DELETE
+
+Question 4: What do HTTP 1XX Status Codes mean? HTTP 2xx? HTTP 3xx? HTTP 4xx? HTTP 5xx?
+Inform­ational Codes
+HTTP Successful Codes
+HTTP Redire­ction Codes
+HTTP Client Error Code
+HTTP Server Error Codes
+
+Question 5: What is an XSS attack? Provide one way a site can be vulneratble to an XSS attack.
+https://www.owasp.org/index.php/Cross-site_Scripting_(XSS)
+Cross-Site Scripting (XSS) attacks are a type of injection, in which malicious scripts are injected into otherwise benign and trusted websites.
+
+request validation 
+
+Question 6: What does CORS stand for? What situation in web application development will you need to implement CORS?
+Cross-origin resource sharing
+https://medium.com/@jeanpan/what-is-cors-cross-origin-resource-sharing-9f0c463621c6
+A web document makes a cross-origin access when it requests a resource from a different domain, protocol, or port. 
